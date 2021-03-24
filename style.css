@@ -1,0 +1,20 @@
+.grid {
+    background-color:  cadetblue;
+    padding: 10px;
+    display: grid;
+    border: 1px;
+    grid-gap: 2px;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+.grid *{
+    background-color: #cddbe6;
+    cursor: pointer;
+}
+
+.grid *:hover{
+    background-color: #ffffff;
+}
